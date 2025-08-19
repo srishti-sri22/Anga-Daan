@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ananya-14-04/OrganD-Decentralized-Organ-Donation-App.git"
   },
-  "author": "Harshit Jaiswal",
+  "author": "Srishti Srivastava",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.3"
