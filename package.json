@@ -4,7 +4,8 @@
   "private": true,
   "type": "commonjs",
   "overrides": {
-    "react-error-overlay": "6.0.9"
+    "react-error-overlay": "6.0.9",
+    "ethereumjs-abi": "^0.6.8"
   },
   "dependencies": {
     "@babel/plugin-syntax-import-assertions": "^7.20.0",
