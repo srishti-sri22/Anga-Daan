@@ -12,7 +12,7 @@ class HospitalList extends Component {
 
     oncheck = (event) => {
         var hospitals = [];
-        axios.get(`http://localhost:5002/api/hospitals/${this.state.city}`)
+        axios.get(`${process.env.REACT_APP_API_URL}/api/hospitals/${this.state.city}`)
             .then(res => {
                 for (let i = 0; i < res.data.length; i++) {
                     const hospital = {

@@ -1,9 +1,4 @@
 Theme : Blockchain to make a record of the Organ Donors and Reciepients
-Team : The Techies
-Members : Srishti Srivastava
-            Sahil Madeshiya
-            Shashank Shukla
-
 Problem:
 
 The main problem facing organ donation is the lack of trust and transparency in the system. Potential

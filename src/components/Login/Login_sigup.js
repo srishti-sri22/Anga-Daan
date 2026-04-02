@@ -30,7 +30,7 @@ class DonorSignUp extends Component {
         const { fname, lname, gender, city, phone, email, bloodgroup, organ, pass } = this.state;
         const donor = { fname, lname, gender, city, phone, email, bloodgroup, organ, pass };
         console.log(donor);
-        axios.post("http://localhost:5002/api/donors/", donor)
+        axios.post(process.env.REACT_APP_API_URL + "/api/donors/", donor)
             .then((res) => {
 
                 this.setState({ succMsg: "Donor Added Successfully" });

@@ -37,7 +37,7 @@ class ApproveDonor extends Component {
 
         const { fname, lname, email, buffer, donorId } = this.state;
 
-        axios.get(`http://localhost:5002/api/donors/${email}`)
+        axios.get(`${process.env.REACT_APP_API_URL}/api/donors/${email}`)
             .then(async (res) => {
 
                 this.setState({ loading: true });
